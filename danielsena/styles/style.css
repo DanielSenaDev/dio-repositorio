@@ -1,35 +1,48 @@
+header{
+    margin-bottom: 25px;
+}
 body{
-    background:rgb(200, 255, 144);
+    background:rgb(1, 10, 38);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
 }
 
 #title, .post_title{
-    color: blue;
-    background: white;
+    color: rgb(0, 0, 0);
+    
 }
 
 #title{  
     padding: 10px;
+    background: rgb(242, 242, 242);
+    border-radius: 25px;
+    text-transform: uppercase;
 }
 
 .meio{
     border: 1px solid black;
-    background:greenyellow;
+    background:#90A66F;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .subtitle{
     color: white;
-    background: mediumblue;
+    background: #001058;
     border: 1px solid black;
     padding: 5px;
     margin-top: 0px;
 }
 
 .post{
-    background: white;
+    background: #F2F2F2;
     padding: 10px;
     border: 3px solid black;
+    border-radius: 25px;
     margin: 10px;
     padding: 15px 10px 5px 15px;
+    text-align: justify;
 }
 
 .post_title{
@@ -38,10 +51,24 @@ body{
 }
 
 footer{
-    background: rgb(255, 210, 113);
-    padding: 10px;
+    padding: 15px;
     border: 1px solid black;
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.rodape_post{
+    color:#F2F2F2 ;
+    background-color: #90A66F;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.rodape_post_dentro{
+    padding: 10px;
+}
+
+#lista-contato{
+    list-style-type:none;
 }
 
 .rodape{
