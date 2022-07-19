@@ -1,14 +1,24 @@
+/*
+#0c3a65 - azul escuro conteudo
+#25b8ee - azul claro fundo
+#001726 - azul escuro footer
+*/
+
+
 header{
     margin-bottom: 25px;
+    margin: 0px;
 }
 body{
-    background:rgb(1, 10, 38);
+    background: #25b8ee;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 15px;
+    /*margin: 15px;*/
 }
 
+
+
 #title, .post_title{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     
 }
 
@@ -21,7 +31,7 @@ body{
 
 .meio{
     border: 1px solid black;
-    background:#90A66F;
+    background:#0c3a65;
     padding-bottom: 15px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -48,30 +58,29 @@ body{
 .post_title{
     font-size: 20px;
     font-style: italic;
+    text-shadow: 0 1px #000;
+    background-color: #0e3955;
+    padding: 6px 12px;
 }
 
 footer{
-    padding: 15px;
-    border: 1px solid black;
+    background-color: #001726;
     margin-top: 30px;
 }
 
 .rodape_post{
     color:#F2F2F2 ;
-    background-color: #90A66F;
+    background-color: #001726;
     border-radius: 30px;
     text-align: center;
 }
 
-.rodape_post_dentro{
-    padding: 10px;
-}
 
 #lista-contato{
     list-style-type:none;
 }
 
-.rodape{
+.creditos{
     background: white ;
     
     padding: 10px;
